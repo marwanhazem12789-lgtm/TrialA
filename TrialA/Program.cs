@@ -19,7 +19,7 @@ builder.Services.AddAuthentication(opt =>
 }).AddJwtBearer(opt =>
 {
     opt.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
-    {
+    {//new update
         ValidateIssuer = true,
         ValidateAudience = true,
         ValidateIssuerSigningKey = true,
