@@ -9,7 +9,7 @@ using TrialA.AllCustoms.JobCustom;
 using TrialA.GenaricRepos;
 using TrialA.Models;
 using TrialA.UNITOFWORKS;
-
+//new
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
